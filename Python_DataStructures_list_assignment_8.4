@@ -1,0 +1,14 @@
+fname = input("Enter file name: ")
+fh = open(fname)
+lst = list()
+flattened_list=list()
+wordlist=list()
+for lines in fh:
+    lines.rstrip()
+    lst.append(lines.split())
+flattened_list = [y for x in lst for y in x]
+for i in flattened_list:
+    if i in wordlist:continue
+    wordlist.append(i)
+wordlist.sort()
+print(wordlist)
