@@ -1,0 +1,11 @@
+Followinglinks.py
+Enter the count:7
+Enter the position:18
+Retrieving http://py4e-data.dr-chuck.net/known_by_Isa.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Krzysztof.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Jesuseun.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Thirza.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Fergal.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Tiegan.html
+Retrieving http://py4e-data.dr-chuck.net/known_by_Kenzeigh.html
+Kenzeigh
