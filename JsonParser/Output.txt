@@ -1,0 +1,5 @@
+jsonparser.py
+Enter the URLhttp://py4e-data.dr-chuck.net/comments_960952.json
+Retrieving URL: http://py4e-data.dr-chuck.net/comments_960952.json
+Retrieved 2714 characters
+2789
