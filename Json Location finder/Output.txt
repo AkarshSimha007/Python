@@ -1,0 +1,98 @@
+Enter location: jayalakshmipuram
+Retrieving http://py4e-data.dr-chuck.net/json?address=jayalakshmipuram&key=42
+Retrieved 1967 characters
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Jayalakshmipuram",
+                    "short_name": "Jayalakshmipuram",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "Mysuru",
+                    "short_name": "Mysuru",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Mysuru",
+                    "short_name": "Mysuru",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Karnataka",
+                    "short_name": "KA",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "India",
+                    "short_name": "IN",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                }
+            ],
+            "formatted_address": "Jayalakshmipuram, Mysuru, Karnataka, India",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 12.32621,
+                        "lng": 76.62971809999999
+                    },
+                    "southwest": {
+                        "lat": 12.3174068,
+                        "lng": 76.615825
+                    }
+                },
+                "location": {
+                    "lat": 12.3222651,
+                    "lng": 76.6226319
+                },
+                "location_type": "APPROXIMATE",
+                "viewport": {
+                    "northeast": {
+                        "lat": 12.32621,
+                        "lng": 76.62971809999999
+                    },
+                    "southwest": {
+                        "lat": 12.3174068,
+                        "lng": 76.615825
+                    }
+                }
+            },
+            "place_id": "ChIJPYUjgpJ6rzsR0SFv2jcKdaI",
+            "types": [
+                "political",
+                "sublocality",
+                "sublocality_level_1"
+            ]
+        }
+    ],
+    "status": "OK"
+}
+ChIJPYUjgpJ6rzsR0SFv2jcKdaI
+lat 12.3222651 lng 76.6226319
+Jayalakshmipuram, Mysuru, Karnataka, India
+Enter location: -
+Retrieving http://py4e-data.dr-chuck.net/json?address=-&key=42
+Retrieved 52 characters
+==== Failure To Retrieve ====
+{
+   "results" : [],
+   "status" : "ZERO_RESULTS"
+}
